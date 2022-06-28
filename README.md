@@ -1,6 +1,6 @@
 # Knowledge Distillation via the Target-aware Transformer (CVPR2022)
 
-Codebase of our **TaT** on ImageNet.
+Codebase of our **TaT** on ImageNet. Refer to [TaT-seg](https://github.com/sihaoevery/TaT-seg) for the experiments on semantic segmentation.
 
 ## Overview
 Executable code can be found in [examples/image_classification.py](examples/image_classification.py). The implementation of **TaT** is [AttnEmbed](torchdistill/models/special.py). The loss function [MaskedFM](torchdistill/losses/single.py) is decoupled with the model. 
